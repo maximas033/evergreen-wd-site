@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024" role="img" aria-label="Evergreen WD circuit tree logo">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#022c2f"/>
+      <stop offset="100%" stop-color="#031b1d"/>
+    </linearGradient>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1024" height="1024" rx="120" fill="url(#bg)"/>
+  <g stroke="#37f3e7" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" filter="url(#glow)">
+    <!-- trunk -->
+    <path d="M512 820 L512 620"/>
+    <path d="M492 820 L492 640"/>
+    <path d="M532 820 L532 640"/>
+    <path d="M472 820 L472 670"/>
+    <path d="M552 820 L552 670"/>
+
+    <!-- branches left -->
+    <path d="M512 620 C470 590,450 560,430 530"/>
+    <path d="M430 530 C390 510,365 490,345 460"/>
+    <path d="M430 530 C395 550,360 560,320 560"/>
+    <path d="M392 580 C350 595,320 620,290 650"/>
+    <path d="M468 570 C440 540,418 515,405 480"/>
+    <path d="M405 480 C370 470,330 465,300 440"/>
+    <path d="M448 610 C420 620,390 640,360 670"/>
+
+    <!-- branches right -->
+    <path d="M512 620 C554 590,574 560,594 530"/>
+    <path d="M594 530 C634 510,659 490,679 460"/>
+    <path d="M594 530 C629 550,664 560,704 560"/>
+    <path d="M632 580 C674 595,704 620,734 650"/>
+    <path d="M556 570 C584 540,606 515,619 480"/>
+    <path d="M619 480 C654 470,694 465,724 440"/>
+    <path d="M576 610 C604 620,634 640,664 670"/>
+
+    <!-- crown branches -->
+    <path d="M512 560 C500 520,500 490,500 450"/>
+    <path d="M512 560 C524 520,524 490,524 450"/>
+    <path d="M500 450 C474 430,452 410,440 380"/>
+    <path d="M524 450 C550 430,572 410,584 380"/>
+    <path d="M480 430 C445 420,412 406,382 382"/>
+    <path d="M544 430 C579 420,612 406,642 382"/>
+  </g>
+
+  <!-- terminal nodes -->
+  <g fill="#78fff7" filter="url(#glow)">
+    <circle cx="345" cy="460" r="6"/><circle cx="320" cy="560" r="6"/><circle cx="290" cy="650" r="6"/>
+    <circle cx="300" cy="440" r="6"/><circle cx="360" cy="670" r="6"/><circle cx="382" cy="382" r="6"/>
+    <circle cx="679" cy="460" r="6"/><circle cx="704" cy="560" r="6"/><circle cx="734" cy="650" r="6"/>
+    <circle cx="724" cy="440" r="6"/><circle cx="664" cy="670" r="6"/><circle cx="642" cy="382" r="6"/>
+    <circle cx="440" cy="380" r="6"/><circle cx="584" cy="380" r="6"/><circle cx="500" cy="450" r="6"/><circle cx="524" cy="450" r="6"/>
+  </g>
+
+  <!-- pins -->
+  <g stroke="#37f3e7" stroke-width="7" filter="url(#glow)">
+    <line x1="450" y1="840" x2="450" y2="870"/><line x1="470" y1="840" x2="470" y2="870"/>
+    <line x1="490" y1="840" x2="490" y2="870"/><line x1="510" y1="840" x2="510" y2="870"/>
+    <line x1="530" y1="840" x2="530" y2="870"/><line x1="550" y1="840" x2="550" y2="870"/>
+    <line x1="570" y1="840" x2="570" y2="870"/>
+  </g>
+</svg>

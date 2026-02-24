@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="500" viewBox="0 0 1600 500" role="img" aria-label="Evergreen WD wordmark">
+  <rect width="1600" height="500" rx="28" fill="#04181b"/>
+  <g transform="translate(40,40)">
+    <image href="evergreen-wd-icon.svg" width="420" height="420"/>
+  </g>
+  <text x="500" y="230" font-family="Inter,Arial,sans-serif" font-size="110" font-weight="800" fill="#d1fae5" letter-spacing="1">EVERGREEN</text>
+  <text x="500" y="325" font-family="Inter,Arial,sans-serif" font-size="92" font-weight="900" fill="#37f3e7" letter-spacing="4">WD</text>
+  <text x="500" y="380" font-family="Inter,Arial,sans-serif" font-size="34" fill="#94f5ef">WEBSITE DEVELOPMENT</text>
+</svg>
