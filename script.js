@@ -1,7 +1,7 @@
 
 const html=document.documentElement;
 const saved=localStorage.getItem('theme');
-if(saved) html.setAttribute('data-theme', saved);
+if(saved){ html.setAttribute('data-theme', saved); } else { html.setAttribute('data-theme','dark'); }
 const t=document.getElementById('themeToggle');
 if(t){
   const setLabel=()=>{t.textContent=(html.getAttribute('data-theme')==='dark')?'☀️ Light':'🌙 Dark';};
